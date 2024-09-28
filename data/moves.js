@@ -20,6 +20,17 @@ var moves_exports = {};
 __export(moves_exports, {
   Moves: () => Moves
 });
+
+/* 
+  Custom Index
+  
+  Custom Moves:
+  Pharoah's Curse
+
+  Changed Moves:
+  Nothing
+*/
+
 module.exports = __toCommonJS(moves_exports);
 const Moves = {
   "10000000voltthunderbolt": {
