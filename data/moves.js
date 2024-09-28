@@ -39,21 +39,6 @@ const Moves = {
     type: "Electric",
     contestType: "Cool"
   },
-  ed: {
-    num:69420,
-    accuracy: 100,
-    basePower: 400000,
-    category: "Physical",
-    name: "Erectile Disfunction",
-    pp: 1,
-    priority: 0,
-    flags: { protect: 1, mirror: 1, metronome: 1 },
-    selfdestruct: "always",
-    secondary: null,
-    target: "normal",
-    type: "psychic",
-    contestType: "Beautiful"
-},
   absorb: {
     num: 71,
     accuracy: 100,
@@ -19900,7 +19885,7 @@ const Moves = {
   tackle: {
     num: 33,
     accuracy: 100,
-    basePower: 400000,
+    basePower: 40,
     category: "Physical",
     name: "Tackle",
     pp: 35,
