@@ -40,6 +40,33 @@ const Moves = {
     contestType: "Cool"
   },
 
+  thunderaegis: {
+    num: 7110,
+    accuracy: true,
+    basePower: 0,
+    category: "Status",
+    name: "Thunder Aegis",
+    pp: 25,
+    priority: 0,
+    flags: { protect: 1, mirror: 1, heal: 1, metronome: 1 },
+    onHit(target, source) { 
+      if (this.field.weather && this.field.terrain) {
+        this.boost({def: 2, spd: 2}, target);
+        this.heal(target.baseMaxhp / 4, target);
+        this.field.clearWeather();
+        this.field.clearTerrain();
+      }
+      else {
+        this.add("-fail", source, "move: Thunder Aegis");
+        this.hint("This move only works when there is an active weather and terrain.");
+      }
+    },
+    secondary: null,
+    target: "self",
+    type: "Electric",
+    contestType: "Clever"
+  },
+
   "10000000voltthunderbolt": {
     num: 719,
     accuracy: true,

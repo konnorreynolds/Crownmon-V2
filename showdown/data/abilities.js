@@ -51,16 +51,15 @@ const Abilities = {
     num: 222
   },
 
-  followerofzeus: {
-    onHit(def, spd, pokemon) {
-      if (pokemon.status === "par") {
-        return this.chainModify(1.2);
-      }
+  gatesofolympus: {
+    onStart(source) {
+      this.field.setTerrain("psychicterrain");
+      this.field.setWeather("raindance");
     },
     flags: {},
-    name: "Follower of Zeus",
-    rating: 3,
-    num: 665
+    name: "Gates of Olympus",
+    rating: 4,
+    num: 2266
   },
 
   adaptability: {
