@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.joltik_regional.ground_idle": {
+		"animation.joltik_divine.ground_idle": {
 			"loop": true,
 			"bones": {
 				"torso": {
@@ -89,7 +89,7 @@
 				}
 			}
 		},
-		"animation.joltik_regional.ground_walk": {
+		"animation.joltik_divine.ground_walk": {
 			"loop": true,
 			"animation_length": 0.5,
 			"bones": {
@@ -216,7 +216,7 @@
 				}
 			}
 		},
-		"animation.joltik_regional.blink1": {
+		"animation.joltik_divine.blink1": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_left": {
@@ -235,7 +235,7 @@
 				}
 			}
 		},
-		"animation.joltik_regional.blink2": {
+		"animation.joltik_divine.blink2": {
 			"animation_length": 0.1667,
 			"bones": {
 				"upper_eyelid_left": {
@@ -254,7 +254,7 @@
 				}
 			}
 		},
-		"animation.joltik_regional.sad": {
+		"animation.joltik_divine.sad": {
 			"loop": true,
 			"bones": {
 				"pupil_left": {
@@ -277,7 +277,7 @@
 				}
 			}
 		},
-		"animation.joltik_regional.mad": {
+		"animation.joltik_divine.mad": {
 			"loop": true,
 			"bones": {
 				"pupil_left": {

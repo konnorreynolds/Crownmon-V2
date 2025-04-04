@@ -1,19 +1,19 @@
 {
-    "species": "cobblemon:treecko",
+    "species": "cobblemon:scareab",
     "order": 0,
     "variations": [
       {
         "aspects": [],
-        "poser": "cobblemon:treecko",
-        "model": "cobblemon:treecko.geo",
-        "texture": "cobblemon:textures/pokemon/treecko/treecko.png",
+        "poser": "cobblemon:scareab",
+        "model": "cobblemon:scareab.geo",
+        "texture": "cobblemon:textures/pokemon/scareab/scareab.png",
         "layers": []
       },
       {
         "aspects": [
           "shiny"
         ],
-        "texture": "cobblemon:textures/pokemon/treecko/treecko_shiny.png"
+        "texture": "cobblemon:textures/pokemon/scareab/scareab_shiny.png"
       }
     ]
    }
