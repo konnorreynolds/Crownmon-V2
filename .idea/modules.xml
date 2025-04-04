@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Crownmon-V2.iml" filepath="$PROJECT_DIR$/.idea/Crownmon-V2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/cobblemon.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/cobblemon.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/cobblemon.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/cobblemon.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/cobblemon.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/cobblemon.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/cobblemon.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/cobblemon.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/cobblemon.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/cobblemon.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.test.iml" />
     </modules>
   </component>
 </project>
