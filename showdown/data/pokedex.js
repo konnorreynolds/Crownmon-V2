@@ -3962,6 +3962,7 @@ const Pokedex = {
     evos: ["Yanmega"],
     eggGroups: ["Bug"]
   },
+  // WIP
   wooper: {
     num: 194,
     name: "Wooper",
@@ -3990,6 +3991,7 @@ const Pokedex = {
     evos: ["Clodsire"],
     eggGroups: ["Water 1", "Field"]
   },
+  // WIP
   quagsire: {
     num: 195,
     name: "Quagsire",
@@ -4001,6 +4003,7 @@ const Pokedex = {
     color: "Blue",
     prevo: "Wooper",
     evoLevel: 20,
+    evoCondition : "shiny",
     eggGroups: ["Water 1", "Field"]
   },
   espeon: {
