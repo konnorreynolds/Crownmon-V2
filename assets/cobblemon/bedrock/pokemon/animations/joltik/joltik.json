@@ -1,0 +1,312 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.joltik_regional.ground_idle": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": ["5+math.sin(q.anim_time*90*2+90)*2", 0, 0],
+					"position": [0, "0+math.sin(q.anim_time*90*2)*0.2", 0]
+				},
+				"fang_left": {
+					"rotation": [0, 0, 15]
+				},
+				"leg_front_right": {
+					"rotation": [-32.39588, -9.12916, 75.60919]
+				},
+				"body": {
+					"position": [0, -0.5, 0]
+				},
+				"body_fluff_front": {
+					"rotation": [-5, 0, 0]
+				},
+				"fangs": {
+					"rotation": [-25, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"body_fluff_back_left": {
+					"rotation": [-1.16524, 24.97457, -2.75806]
+				},
+				"body_fluff_back_right": {
+					"rotation": [-1.16524, -24.97457, 2.75806]
+				},
+				"body_fluff_front_left": {
+					"rotation": [-1.3378, 14.94159, -5.17544]
+				},
+				"body_fluff_back": {
+					"rotation": [-27.5, 0, 0]
+				},
+				"body_fluff_front_right": {
+					"rotation": [-1.3378, -14.9416, 5.1754]
+				},
+				"fluff_front_right": {
+					"rotation": [0, 0, -17.5]
+				},
+				"leg_front_right2": {
+					"rotation": [0, 0, -37.5]
+				},
+				"foot_front_right": {
+					"rotation": [0, 0, -32.5]
+				},
+				"leg_front_left": {
+					"rotation": [-32.39588, 9.1292, -75.6092]
+				},
+				"leg_front_left2": {
+					"rotation": [0, 0, 37.5]
+				},
+				"fluff_front_left": {
+					"rotation": [0, 0, 10]
+				},
+				"foot_front_left": {
+					"rotation": [0, 0, 32.5]
+				},
+				"leg_back_right": {
+					"rotation": [37.81653, 11.4467, 78.03054]
+				},
+				"leg_back_right2": {
+					"rotation": [0, 0, -45]
+				},
+				"fluff_back_right": {
+					"rotation": [0, 0, -7.5]
+				},
+				"foot_back_right": {
+					"rotation": [0, 0, -25]
+				},
+				"leg_back_left": {
+					"rotation": [37.81653, -11.4467, -78.0305]
+				},
+				"leg_back_left2": {
+					"rotation": [0, 0, 45]
+				},
+				"fluff_back_left": {
+					"rotation": [0, 0, 12.5]
+				},
+				"foot_back_left": {
+					"rotation": [0, 0, 25]
+				},
+				"fang_right": {
+					"rotation": [0, 0, -15]
+				}
+			}
+		},
+		"animation.joltik_regional.ground_walk": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"torso": {
+					"rotation": ["5+math.sin(q.anim_time*90*8)*2", 0, 0],
+					"position": [0, "0+math.sin(q.anim_time*90*8)*0.2", 0]
+				},
+				"fang_left": {
+					"rotation": [0, 0, 15]
+				},
+				"leg_front_right": {
+					"rotation": {
+						"0.0": [-32.39588, -9.12916, 75.60919],
+						"0.0833": [-52.79962, 4.81265, 86.22022],
+						"0.1667": [-0.95415, -16.9825, 69.24824],
+						"0.25": [-32.39588, -9.12916, 75.60919],
+						"0.3333": [-52.79962, 4.81265, 86.22022],
+						"0.4167": [-0.95415, -16.9825, 69.24824],
+						"0.5": [-32.39588, -9.12916, 75.60919]
+					}
+				},
+				"body": {
+					"position": [0, -0.5, 0]
+				},
+				"body_fluff_front": {
+					"rotation": [-5, 0, 0]
+				},
+				"fangs": {
+					"rotation": [-25, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"body_fluff_back_left": {
+					"rotation": [-1.16524, 24.97457, -2.75806]
+				},
+				"body_fluff_back_right": {
+					"rotation": [-1.16524, -24.97457, 2.75806]
+				},
+				"body_fluff_front_left": {
+					"rotation": {
+						"0.0": [-1.3378, 14.94159, -5.17544],
+						"0.5": [-1.3378, 14.94159, -5.17544]
+					}
+				},
+				"body_fluff_back": {
+					"rotation": [-27.5, 0, 0]
+				},
+				"body_fluff_front_right": {
+					"rotation": [-1.3378, -14.9416, 5.1754]
+				},
+				"fluff_front_right": {
+					"rotation": [0, 0, -17.5]
+				},
+				"leg_front_right2": {
+					"rotation": [0, 0, -37.5]
+				},
+				"foot_front_right": {
+					"rotation": [0, 0, -32.5]
+				},
+				"leg_front_left": {
+					"rotation": {
+						"0.0": [-43.47843, -1.82397, -92.40351],
+						"0.0833": [-21.28161, 15.177, -73.87669],
+						"0.1667": [-52.02976, 7.36779, -89.58195],
+						"0.25": [-43.47843, -1.82397, -92.40351],
+						"0.3333": [-21.28161, 15.177, -73.87669],
+						"0.4167": [-52.02976, 7.36779, -89.58195],
+						"0.5": [-43.47843, -1.82397, -92.40351]
+					}
+				},
+				"leg_front_left2": {
+					"rotation": [0, 0, 37.5]
+				},
+				"fluff_front_left": {
+					"rotation": [0, 0, 10]
+				},
+				"foot_front_left": {
+					"rotation": [0, 0, 32.5]
+				},
+				"leg_back_right": {
+					"rotation": {
+						"0.0": [40.31653, 11.4467, 78.03054],
+						"0.0833": [5.31653, 11.4467, 78.03054],
+						"0.1667": [35.20459, 10.01222, 80.11454],
+						"0.25": [5.14571, 12.23688, 84.96612],
+						"0.3333": [5.31653, 11.4467, 78.03054],
+						"0.4167": [35.20459, 10.01222, 80.11454],
+						"0.5": [40.31653, 11.4467, 78.03054]
+					}
+				},
+				"leg_back_right2": {
+					"rotation": [0, 0, -45]
+				},
+				"fluff_back_right": {
+					"rotation": [0, 0, -7.5]
+				},
+				"foot_back_right": {
+					"rotation": [0, 0, -25]
+				},
+				"leg_back_left": {
+					"rotation": {
+						"0.0": [-4.70301, -0.52714, -84.10973],
+						"0.0833": [15.03592, 4.14845, -68.84811],
+						"0.1667": [-13.05475, 1.37723, -81.05249],
+						"0.25": [24.47939, 0.34185, -78.77668],
+						"0.3333": [-4.70301, -0.52714, -84.10973],
+						"0.4167": [15.03592, 4.14845, -68.84811],
+						"0.5": [-4.70301, -0.52714, -84.10973]
+					}
+				},
+				"leg_back_left2": {
+					"rotation": [0, 0, 45]
+				},
+				"fluff_back_left": {
+					"rotation": {
+						"0.0": [0, 0, 12.5],
+						"0.5": [0, 0, 12.5]
+					}
+				},
+				"foot_back_left": {
+					"rotation": [0, 0, 25]
+				},
+				"fang_right": {
+					"rotation": [0, 0, -15]
+				}
+			}
+		},
+		"animation.joltik_regional.blink1": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyelid_left": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.125": {"pre": [0, 0, -0.1], "post": [0, 0, -0.1]},
+						"0.1667": {"pre": [0, 0, -0.1], "post": [0, 0, 0]}
+					}
+				},
+				"eyelid_right": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.125": {"pre": [0, 0, -0.1], "post": [0, 0, -0.1]},
+						"0.1667": {"pre": [0, 0, -0.1], "post": [0, 0, 0]}
+					}
+				}
+			}
+		},
+		"animation.joltik_regional.blink2": {
+			"animation_length": 0.1667,
+			"bones": {
+				"upper_eyelid_left": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.125": {"pre": [0, 0, -0.1], "post": [0, 0, -0.1]},
+						"0.1667": {"pre": [0, 0, -0.1], "post": [0, 0, 0]}
+					}
+				},
+				"upper_eyelid_right": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.125": {"pre": [0, 0, -0.1], "post": [0, 0, -0.1]},
+						"0.1667": {"pre": [0, 0, -0.1], "post": [0, 0, 0]}
+					}
+				}
+			}
+		},
+		"animation.joltik_regional.sad": {
+			"loop": true,
+			"bones": {
+				"pupil_left": {
+					"position": [0, -0.2, 0]
+				},
+				"eye_shine_left": {
+					"position": [0, -0.2, 0]
+				},
+				"pupil_right": {
+					"position": [0, -0.2, 0]
+				},
+				"eye_shine_right": {
+					"position": [0, -0.2, 0]
+				},
+				"eyelid_half_right": {
+					"position": [0, 0.3, -0.1]
+				},
+				"eyelid_half_left": {
+					"position": [0, 0.3, -0.1]
+				}
+			}
+		},
+		"animation.joltik_regional.mad": {
+			"loop": true,
+			"bones": {
+				"pupil_left": {
+					"position": [0, -0.2, 0]
+				},
+				"eye_shine_left": {
+					"position": [0, -0.2, 0]
+				},
+				"pupil_right": {
+					"position": [0, -0.2, 0]
+				},
+				"eye_shine_right": {
+					"position": [0, -0.2, 0]
+				},
+				"eyelid_half_right": {
+					"position": [0, 0.2, -0.1]
+				},
+				"eyelid_half_left": {
+					"position": [0, 0.2, -0.1]
+				},
+				"eye_left": {
+					"rotation": [0, 0, 25],
+					"position": [0.1, 0, 0]
+				},
+				"eye_right": {
+					"rotation": [0, 0, -25],
+					"position": [-0.1, 0, 0]
+				}
+			}
+		}
+	}
+}
