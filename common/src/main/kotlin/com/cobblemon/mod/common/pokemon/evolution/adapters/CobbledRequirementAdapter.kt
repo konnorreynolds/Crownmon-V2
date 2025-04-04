@@ -53,6 +53,7 @@ object CobblemonRequirementAdapter : RequirementAdapter {
         this.registerType(RecoilRequirement.ADAPTER_VARIANT, RecoilRequirement::class)
         this.registerType(ShinyRequirement.ADAPTER_VARIANT, ShinyRequirement::class)
         this.registerType(DefeatRequirement.ADAPTER_VARIANT, DefeatRequirement::class)
+        this.registerType(DivineRequirement.ADAPTER_VARIANT, DivineRequirement::class)
         this.registerType(BlocksTraveledRequirement.ADAPTER_VARIANT, BlocksTraveledRequirement::class)
         this.registerType(StructureRequirement.ADAPTER_VARIANT, StructureRequirement::class)
         this.registerType(AnyRequirement.ADAPTER_VARIANT, AnyRequirement::class)

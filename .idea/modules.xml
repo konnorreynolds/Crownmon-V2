@@ -9,6 +9,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/cobblemon.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/cobblemon.fabric.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/com.cobblemon.mod.cobblemon.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/com.cobblemon.mod.cobblemon.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/com.cobblemon.mod.cobblemon.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/com.cobblemon.mod.cobblemon.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/com.cobblemon.mod.cobblemon.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/com.cobblemon.mod.cobblemon.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/com.cobblemon.mod.cobblemon.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/com.cobblemon.mod.cobblemon.neoforge.test.iml" />
     </modules>
   </component>
 </project>

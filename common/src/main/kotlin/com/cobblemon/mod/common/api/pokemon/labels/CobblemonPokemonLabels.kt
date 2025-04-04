@@ -64,6 +64,12 @@ object CobblemonPokemonLabels {
 
     /**
      * See [REGIONAL], this has no official regionals but it consists of the "base" form that comes from the region.
+     * Customs for Crownmon
+     */
+    const val DIVINE_FORM = "divine_form"
+
+    /**
+     * See [REGIONAL], this has no official regionals but it consists of the "base" form that comes from the region.
      */
     const val KANTONIAN_FORM = "kantonian_form"
 
