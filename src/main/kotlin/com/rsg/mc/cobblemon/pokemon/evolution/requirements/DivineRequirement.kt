@@ -23,7 +23,8 @@ class DivineRequirement : com.cobblemon.mod.common.api.pokemon.evolution.require
     val isDivine: Boolean = true
     val minLevel = 1
     val maxLevel = Int.Companion.MAX_VALUE
-    override fun check(pokemon: Pokemon) = isDivine.equals(pokemon.hasLabels("divine")).equals(pokemon.level in minLevel..maxLevel)
+    override fun check(pokemon: Pokemon) =
+        isDivine.equals(pokemon.hasLabels("divine")).equals(pokemon.level in minLevel..maxLevel)
 
     companion object {
         const val ADAPTER_VARIANT = "divine"

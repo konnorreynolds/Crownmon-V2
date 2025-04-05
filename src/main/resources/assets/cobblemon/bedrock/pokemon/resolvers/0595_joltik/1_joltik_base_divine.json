@@ -3,24 +3,33 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["divine"],
+      "aspects": [
+        "divine"
+      ],
       "poser": "cobblemon:joltik_divine",
       "model": "cobblemon:joltik_divine.geo",
       "texture": "cobblemon:textures/pokemon/0595_joltik/joltik_divine.png",
-      "layers": [{
+      "layers": [
+        {
           "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0595_joltik/joltik_divine_emissive.png",
           "emissive": true
-        }]
+        }
+      ]
     },
     {
-      "aspects": ["divine", "shiny"],
+      "aspects": [
+        "divine",
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0595_joltik/joltik_divine_shiny.png",
-      "layers": [{
-        "name": "emissive",
-        "texture": "cobblemon:textures/pokemon/0595_joltik/joltik_divine_shiny_emissive.png",
-        "emissive": true
-      }]
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0595_joltik/joltik_divine_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,8 @@
 {
-    "keys": ["divine"],
-    "type": "flag",
-    "isAspect": true,
-    "default": false
+  "keys": [
+    "divine"
+  ],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
 }

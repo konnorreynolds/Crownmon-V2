@@ -3,17 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Crownmon.iml" filepath="$PROJECT_DIR$/.idea/modules/Crownmon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Crownmon.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Crownmon.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Crownmon.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Crownmon.app.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Crownmon.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Crownmon.common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/Crownmon.fabric.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/Crownmon.fabric.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/list/Crownmon.list.main.iml" filepath="$PROJECT_DIR$/.idea/modules/list/Crownmon.list.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/list/Crownmon.list.test.iml" filepath="$PROJECT_DIR$/.idea/modules/list/Crownmon.list.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Crownmon.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Crownmon.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/Crownmon.neoforge.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/Crownmon.neoforge.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Crownmon.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Crownmon.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utilities/Crownmon.utilities.main.iml" filepath="$PROJECT_DIR$/.idea/modules/utilities/Crownmon.utilities.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utilities/Crownmon.utilities.test.iml" filepath="$PROJECT_DIR$/.idea/modules/utilities/Crownmon.utilities.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-logic/build-logic.iml" filepath="$PROJECT_DIR$/.idea/modules/build-logic/build-logic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-logic/build-logic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/build-logic/build-logic.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-logic/build-logic.test.iml" filepath="$PROJECT_DIR$/.idea/modules/build-logic/build-logic.test.iml" />

@@ -1,16 +1,32 @@
 {
   "portraitScale": 1.6,
-  "portraitTranslation": [-0.18, -0.83, 0],
+  "portraitTranslation": [
+    -0.18,
+    -0.83,
+    0
+  ],
   "profileScale": 0.65,
-  "profileTranslation": [0, 0.71, 0],
+  "profileTranslation": [
+    0,
+    0.71,
+    0
+  ],
   "rootBone": "galvantula_divine",
   "animations": {
     "cry": "q.bedrock_stateful('galvantula', 'cry')"
   },
   "poses": {
     "standing": {
-      "poseTypes": ["STAND", "FLOAT", "PORTRAIT", "PROFILE", "NONE"],
-      "animations": ["q.bedrock('galvantula_divine', 'ground_idle')"],
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE"
+      ],
+      "animations": [
+        "q.bedrock('galvantula_divine', 'ground_idle')"
+      ],
       "quirks": [
         "q.bedrock_quirk('galvantula_divine', 'blink1')",
         "q.bedrock_quirk('galvantula_divine', 'blink2')"
@@ -18,7 +34,10 @@
     },
     "walking": {
       "poseName": "walking",
-      "poseTypes": ["WALK", "SWIM"],
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
       "animations": [
         "q.bedrock('galvantula_divine', 'ground_idle')",
         "q.quadruped_walk(1, 1, 'front_leg_left', 'front_leg_right', 'back_leg_left', 'back_leg_right')"

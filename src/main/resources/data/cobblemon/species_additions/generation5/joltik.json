@@ -1,11 +1,15 @@
 {
   "target": "cobblemon:joltik",
-  "features": ["divine"],
+  "features": [
+    "divine"
+  ],
   "forms": [
     {
       "name": "Divine",
       "primaryType": "ground",
-      "pokedex": ["cobblemon.species.joltik-divine.desc"],
+      "pokedex": [
+        "cobblemon.species.joltik-divine.desc"
+      ],
       "labels": [
         "gen5",
         "divine"
@@ -15,7 +19,9 @@
         "unnerve",
         "h:swarm"
       ],
-      "aspects": ["divine"],
+      "aspects": [
+        "divine"
+      ],
       "evolutions": [
         {
           "id": "joltikdivine_galvantuladivine",

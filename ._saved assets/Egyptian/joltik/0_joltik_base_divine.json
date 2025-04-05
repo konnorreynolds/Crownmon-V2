@@ -7,20 +7,26 @@
       "poser": "cobblemon:joltik",
       "model": "cobblemon:joltik.geo",
       "texture": "cobblemon:textures/pokemon/0595_joltik/joltik.png",
-      "layers": [{
+      "layers": [
+        {
           "name": "glow",
           "texture": "cobblemon:textures/pokemon/0595_joltik/joltik_eye_emissives.png",
           "emissive": true
-        }]
+        }
+      ]
     },
     {
-      "aspects": [ "shiny" ],
+      "aspects": [
+        "shiny"
+      ],
       "texture": "cobblemon:textures/pokemon/0595_joltik/joltik_shiny.png",
-      "layers": [{
+      "layers": [
+        {
           "name": "glow",
           "texture": "cobblemon:textures/pokemon/0595_joltik/joltik_eye_emissives_shiny.png",
           "emissive": true
-        }]
+        }
+      ]
     }
   ]
 }
