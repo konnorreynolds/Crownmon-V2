@@ -267,6 +267,7 @@
         ]
       },
       "moves": [
+        "1:pharoahscurse",
         "1:spiderweb",
         "1:furycutter",
         "1:absorb",
@@ -368,16 +369,16 @@
       ],
       "evolutions": [
         {
-          "id": "joltik_galvantula",
+          "id": "joltik_galvantuladivine",
           "variant": "level_up",
-          "result": "galvantula",
+          "result": "galvantula divine",
           "consumeHeldItem": false,
           "learnableMoves": [
             "stickyweb"
           ],
           "requirements": [
             {
-              "variant": "divine",
+              "variant": "level",
               "minLevel": 36
             }
           ]

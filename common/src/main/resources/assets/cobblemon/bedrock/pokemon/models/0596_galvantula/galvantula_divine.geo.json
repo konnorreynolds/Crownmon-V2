@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.galvantula",
+				"identifier": "geometry.galvantula_divine",
 				"texture_width": 128,
 				"texture_height": 64,
 				"visible_bounds_width": 4,
@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "galvantula_regional",
+					"name": "galvantula_divine",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "galvantula_regional",
+					"parent": "galvantula_divine",
 					"pivot": [0, 7, 0]
 				},
 				{

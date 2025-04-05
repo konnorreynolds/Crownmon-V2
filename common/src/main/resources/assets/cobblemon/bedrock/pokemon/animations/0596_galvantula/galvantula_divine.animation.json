@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.galvantula_regional.ground_idle": {
+		"animation.galvantula_divine.ground_idle": {
 			"loop": true,
 			"bones": {
 				"front_leg_right": {
@@ -143,7 +143,7 @@
 				}
 			}
 		},
-		"animation.galvantula_regional.air_fly": {
+		"animation.galvantula_divine.air_fly": {
 			"loop": true,
 			"bones": {
 				"front_leg_right": {
@@ -286,7 +286,7 @@
 				}
 			}
 		},
-		"animation.galvantula_regional.blink2": {
+		"animation.galvantula_divine.blink2": {
 			"animation_length": 0.1667,
 			"bones": {
 				"forehead_eyelids": {
@@ -298,7 +298,7 @@
 				}
 			}
 		},
-		"animation.galvantula_regional.blink1": {
+		"animation.galvantula_divine.blink1": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_right": {
