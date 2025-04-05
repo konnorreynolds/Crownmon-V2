@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scareab",
+  "speciesId": "cobblemon:scareab",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Divine",
+      "unlockForms": [
+        "Divine"
+      ]
+    }
+  ],
+  "variations": []
+}

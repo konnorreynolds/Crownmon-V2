@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:galvantula-divine",
+  "speciesId": "cobblemon:galvantula",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Divine",
+      "unlockForms": [
+        "Divine"
+      ]
+    }
+  ],
+  "variations": []
+}

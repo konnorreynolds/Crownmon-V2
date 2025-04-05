@@ -377,7 +377,23 @@
       "tutor:xscissor"
     ],
     "preEvolution": "joltik divine",
-    "evolutions": [],
+    "evolutions": [
+      {
+        "id": "galvantuladivine_scareab",
+        "variant": "level_up",
+        "result": "scareab",
+        "consumeHeldItem": false,
+        "learnableMoves": [
+          "pharaohscurse"
+        ],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 36
+          }
+        ]
+      }
+    ],
     "battleOnly": false
   }]
 }

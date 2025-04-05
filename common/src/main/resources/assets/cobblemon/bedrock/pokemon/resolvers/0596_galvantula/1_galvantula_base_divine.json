@@ -6,10 +6,10 @@
       "aspects": ["divine"],
       "poser": "cobblemon:galvantula_divine",
       "model": "cobblemon:galvantula_divine.geo",
-      "texture": "cobblemon:textures/pokemon/0596_galvantula/galvantula_divine.png",
+      "texture": "cobblemon:textures/pokemon/0595_galvantula/galvantula_divine.png",
       "layers": [
         {
-          "name": "glow",
+          "name": "emissive",
           "texture": "cobblemon:textures/pokemon/0596_galvantula/galvantula_divine_emissive.png",
           "emissive": true
         }
@@ -20,8 +20,8 @@
       "texture": "cobblemon:textures/pokemon/0596_galvantula/galvantula_divine_shiny.png",
       "layers": [
         {
-          "name": "glow",
-          "texture": "cobblemon:textures/pokemon/0596_galvantula/galvantula_divine_emissive_shiny.png",
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0596_galvantula/galvantula_divine_shiny_emissive.png",
           "emissive": true
         }
       ]

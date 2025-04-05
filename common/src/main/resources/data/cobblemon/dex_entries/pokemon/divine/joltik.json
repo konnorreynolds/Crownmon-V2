@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:joltik-divine",
+  "speciesId": "cobblemon:joltik",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Divine",
+      "unlockForms": [
+        "Divine"
+      ]
+    }
+  ],
+  "variations": []
+}

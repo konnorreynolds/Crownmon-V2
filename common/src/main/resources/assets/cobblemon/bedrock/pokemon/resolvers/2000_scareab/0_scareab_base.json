@@ -1,19 +1,30 @@
 {
-    "species": "cobblemon:scareab",
-    "order": 0,
-    "variations": [
-      {
-        "aspects": [],
-        "poser": "cobblemon:scareab",
-        "model": "cobblemon:scareab.geo",
-        "texture": "cobblemon:textures/pokemon/scareab/scareab.png",
-        "layers": []
-      },
-      {
-        "aspects": [
-          "shiny"
-        ],
-        "texture": "cobblemon:textures/pokemon/scareab/scareab_shiny.png"
-      }
-    ]
-   }
+  "species": "cobblemon:scareab",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:scareab",
+      "model": "cobblemon:scareab.geo",
+      "texture": "cobblemon:textures/pokemon/2000_scareab/scareab.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/2000_scareab/scareab_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/2000_scareab/scareab_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/2000_scareab/scareab_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
