@@ -1,0 +1,38 @@
+{
+  "target": "cobblemon:joltik",
+  "features": ["divine"],
+  "forms": [
+    {
+      "name": "Divine",
+      "primaryType": "ground",
+      "pokedex": ["cobblemon.species.joltik-divine.desc"],
+      "labels": [
+        "gen5",
+        "divine"
+      ],
+      "abilities": [
+        "compoundeyes",
+        "unnerve",
+        "h:swarm"
+      ],
+      "aspects": ["divine"],
+      "evolutions": [
+        {
+          "id": "joltikdivine_galvantuladivine",
+          "variant": "level_up",
+          "result": "galvantula divine",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "stickyweb"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 16
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

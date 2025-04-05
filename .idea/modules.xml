@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/cobblemon.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/cobblemon.common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/cobblemon.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/cobblemon.common.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/cobblemon.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/cobblemon.common.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/cobblemon.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/cobblemon.fabric.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/cobblemon.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/cobblemon.fabric.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/cobblemon.neoforge.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.cobblemon.mod.cobblemon.common.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/com.cobblemon.mod.cobblemon.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/com.cobblemon.mod.cobblemon.fabric.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/com.cobblemon.mod.cobblemon.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/com.cobblemon.mod.cobblemon.fabric.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/com.cobblemon.mod.cobblemon.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/com.cobblemon.mod.cobblemon.neoforge.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/com.cobblemon.mod.cobblemon.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/com.cobblemon.mod.cobblemon.neoforge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Crownmon.iml" filepath="$PROJECT_DIR$/.idea/modules/Crownmon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Crownmon.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Crownmon.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Crownmon.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Crownmon.app.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Crownmon.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Crownmon.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/Crownmon.fabric.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/Crownmon.fabric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/list/Crownmon.list.main.iml" filepath="$PROJECT_DIR$/.idea/modules/list/Crownmon.list.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/list/Crownmon.list.test.iml" filepath="$PROJECT_DIR$/.idea/modules/list/Crownmon.list.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Crownmon.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Crownmon.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/Crownmon.neoforge.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/Crownmon.neoforge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Crownmon.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Crownmon.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utilities/Crownmon.utilities.main.iml" filepath="$PROJECT_DIR$/.idea/modules/utilities/Crownmon.utilities.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utilities/Crownmon.utilities.test.iml" filepath="$PROJECT_DIR$/.idea/modules/utilities/Crownmon.utilities.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-logic/build-logic.iml" filepath="$PROJECT_DIR$/.idea/modules/build-logic/build-logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-logic/build-logic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/build-logic/build-logic.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-logic/build-logic.test.iml" filepath="$PROJECT_DIR$/.idea/modules/build-logic/build-logic.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.rsg.Crownmon.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.rsg.Crownmon.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.rsg.Crownmon.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.rsg.Crownmon.test.iml" />
     </modules>
   </component>
 </project>

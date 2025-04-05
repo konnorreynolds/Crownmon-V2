@@ -1,0 +1,39 @@
+{
+  "target": "cobblemon:galvantula",
+  "features": ["divine"],
+  "forms": [
+    {
+      "name": "Divine",
+      "primaryType": "ground",
+      "pokedex": ["cobblemon.species.galvantula-divine.desc"],
+      "labels": [
+        "gen5",
+        "divine"
+      ],
+      "abilities": [
+        "compoundeyes",
+        "unnerve",
+        "h:swarm"
+      ],
+      "aspects": ["divine"],
+      "preEvolution": "joltik divine",
+      "evolutions": [
+        {
+          "id": "galvantuladivine_scareab",
+          "variant": "level_up",
+          "result": "scareab",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "pharaohscurse"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 36
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

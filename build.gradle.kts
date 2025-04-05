@@ -1,12 +1,49 @@
 plugins {
-    id("cobblemon.root-conventions")
-    id ("net.nemerosa.versioning") version "3.1.0"
+    id("java")
+    id("fabric-loom") version("1.9-SNAPSHOT")
+    kotlin("jvm") version ("2.1.0")
 }
 
-version = "${project.property("mod_version")}+${project.property("mc_version")}"
+group = property("maven_group")!!
+version = property("mod_version")!!
 
-val isSnapshot = project.property("snapshot")?.equals("true") ?: false
-if (isSnapshot) {
-    val fixedBranchName = versioning.info.branch.substringAfter("/")
-    version = "$version-${fixedBranchName}-${versioning.info.build}"
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven("https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/")
+    maven("https://maven.impactdev.net/repository/development/")
+    maven("https://api.modrinth.com/maven")
+}
+
+dependencies {
+    minecraft("com.mojang:minecraft:${property("minecraft_version")}")
+    mappings(loom.officialMojangMappings())
+    modImplementation("net.fabricmc:fabric-loader:${property("loader_version")}")
+
+    // Fabric API
+    modImplementation("net.fabricmc.fabric-api:fabric-api:${property("fabric_version")}")
+
+    // Fabric Kotlin
+    modImplementation("net.fabricmc:fabric-language-kotlin:${property("fabric_kotlin_version")}")
+
+    // Cobblemon
+    modImplementation("com.cobblemon:fabric:${property("cobblemon_version")}")
+}
+
+tasks {
+    processResources {
+        inputs.property("version", project.version)
+
+        filesMatching("fabric.mod.json") {
+            expand(mutableMapOf("version" to project.version))
+        }
+    }
+
+    jar {
+        from("LICENSE")
+    }
+
+    compileKotlin {
+        kotlinOptions.jvmTarget = "21"
+    }
 }
